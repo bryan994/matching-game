@@ -1,0 +1,39 @@
+.popup {
+    @include absCenter;
+    background: #fff;
+    width: 42rem;
+    height: 48rem;
+    padding: 3rem;
+    font-family: 'Acme', sans-serif;
+    border-radius: .5rem;
+    box-shadow: 4px 4px 12px #000;
+    display: none;
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+        i {
+            color: gold;
+            text-shadow: 0 0 10px #000;
+            font-size: 11rem;
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h4 {
+            font-size: 4rem;
+        }
+        p {
+            font-size: 2.4rem;
+            text-align: center;
+        }
+        p span {
+            color: #2424d1;
+        }
+    }
+}

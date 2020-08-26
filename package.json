@@ -1,0 +1,21 @@
+{
+  "name": "card-game",
+  "version": "1.0.0",
+  "description": "Card matching game",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass_mac": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass_window": "node-sass .\\sass\\main.scss .\\css\\style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "concat": "^1.0.3",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.1"
+  }
+}

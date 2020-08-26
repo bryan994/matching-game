@@ -1,0 +1,21 @@
+.btn {
+  display: block;
+  padding: 1rem 2rem;
+  background: linear-gradient(150deg, #b83dcc 2%, #2424d1 55%, #66acdd 100%);
+  border-radius: 3rem;
+  width: 18rem;
+  margin: 2rem auto 0;
+  text-align: center;
+  box-shadow: 0px 4px 6px #000;
+  font-family: "Acme", sans-serif;
+  text-transform: uppercase;
+}
+.btn a {
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+.btn-zoom {
+  animation: zoominout 0.8s ease-in 0s 3;
+}
